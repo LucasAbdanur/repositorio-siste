@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f0fa;
+    color: #333;
+}
+
+header {
+    background-color: #6a5acd;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+#logo {
+    max-width: 180px;  /* Largura máxima da logo */
+    height: auto;      /* Mantém a altura automática para preservar a proporção */
+    margin-top: 10px;  /* Margem acima da logo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #5b9bd5;
+    border-bottom: 3px solid #6a5acd;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d1e7ff;
+}
+
+main {
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #6a5acd;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 3px solid #5b9bd5;
+}
+
+button {
+    background-color: #6a5acd;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #836fff;
+}
+
+body {
+    padding-bottom: 60px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    object-fit: cover;
+}
